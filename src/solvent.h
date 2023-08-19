@@ -9,9 +9,11 @@
 #if NDEBUG
 #define LOG_DEBUG(x)
 #else
-#define LOG_DEBUG(x) std::cout << __FILE__ << ":" << __LINE__ << ": " << x << std::endl
+#define LOG_DEBUG(x)                                                           \
+  std::cout << __FILE__ << ":" << __LINE__ << ": " << x << std::endl
 #endif
 
-void init_pos_sol(std::vector<Vec3>& pos, std::vector<Vec3>& pos_sol, const Box& box, Random& mt, const Param& p);
+void init_pos_sol(std::vector<Vec3> &pos, std::vector<Vec3> &pos_sol,
+                  const Box &box, Random &mt, const Param &p);
 
 #endif
