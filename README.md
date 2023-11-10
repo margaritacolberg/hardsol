@@ -10,6 +10,8 @@ for the protein crambin are chosen between different pairs of intermediate
 states, and the transition rate (`krate`) and the population of the unbonded
 state at equilibrium (`Pu`) are calculated for each.
 
+For more information, see the [preprint](https://arxiv.org/abs/2310.13223).
+
 ## Directories
 
 See top level comment in each file for more details as to what each file does.
